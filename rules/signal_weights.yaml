@@ -1,0 +1,8 @@
+# Signal weights for structured track (infra vs code)
+infra_noise:
+  crxde_warning: 0.1
+  davex_warning: 0.1
+code_signals:
+  missing_npm_module: 1.0
+  dispatcher_syntax: 1.0
+  env_var_issue: 0.9
